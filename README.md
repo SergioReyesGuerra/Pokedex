@@ -52,7 +52,7 @@ Luego abre tu navegador en `http://localhost:5173`
 
 - Carga 10 Pokémon desde PokéAPI
 - Muestra nombre e imagen
-- Puedes marcar favoritos ❤️
+- Puedes marcar favoritos
 - Guarda favoritos en localStorage
 - Tiene navegación con enlaces
 
