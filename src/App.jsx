@@ -6,12 +6,11 @@ import Contact from './pages/Contact';
 export default function App() {
   return (
     <BrowserRouter>
-      <nav style={{ padding: '1rem', background: '#eee', marginBottom: '1rem' }}>
-        <Link to="/" style={{ marginRight: '1rem' }}>🏠 Home</Link>
-        <Link to="/items" style={{ marginRight: '1rem' }}>🧩 Items</Link>
-        <Link to="/contact">📬 Contact</Link>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/items">Items</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/items" element={<Items />} />

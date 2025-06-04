@@ -1,81 +1,10 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  background-color: #f8f8f8;
-  color: #333;
+  font-family: sans-serif;
+  padding: 20px;
 }
-
-.container {
-  padding: 2rem;
+nav a {
+  margin-right: 10px;
 }
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.card {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: 160px;
-  text-align: center;
-  padding: 1rem;
-  transition: transform 0.2s;
-}
-.card:hover {
-  transform: scale(1.05);
-}
-
-.favorite {
-  background-color: #ffeaea;
-}
-
-button {
-  background-color: #ff4d4f;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 0.3rem 0.6rem;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #d9363e;
-}
-
-input {
-  padding: 0.5rem;
-  margin-bottom: 1.5rem;
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-/* Loader */
-.loader {
-  border: 6px solid #eee;
-  border-top: 6px solid #3498db;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  animation: spin 0.8s linear infinite;
-  margin: 2rem auto;
-}
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Toast */
-.toast {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  background: #323232;
-  color: white;
-  padding: 1rem;
-  border-radius: 8px;
-  opacity: 0.9;
-  z-index: 1000;
+img {
+  width: 80px;
 }
