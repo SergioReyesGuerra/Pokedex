@@ -1,10 +1,10 @@
-# 🧠 Pokédex - SPA React 19
+#  Pokédex - SPA React 19
 
 Aplicación web muy básica que muestra una Pokédex. Está hecha con React 19 y Vite como parte de un examen práctico.
 
 ---
 
-## 🚀 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - React 19
 - Vite
@@ -15,7 +15,7 @@ Aplicación web muy básica que muestra una Pokédex. Está hecha con React 19 y
 
 ---
 
-## 🛠️ Cómo ejecutar
+##  Cómo ejecutar
 
 1. Clona este repositorio:
 
@@ -40,7 +40,7 @@ Luego abre tu navegador en `http://localhost:5173`
 
 ---
 
-## 🧭 Rutas de la app
+##  Rutas de la app
 
 - `/` → Página de inicio
 - `/items` → Lista de Pokémon
@@ -48,7 +48,7 @@ Luego abre tu navegador en `http://localhost:5173`
 
 ---
 
-## 🎮 Funciones principales
+##  Funciones principales
 
 - Carga 10 Pokémon desde PokéAPI
 - Muestra nombre e imagen
@@ -58,7 +58,7 @@ Luego abre tu navegador en `http://localhost:5173`
 
 ---
 
-## ✍️ Autor
+##  Autor
 
 **Sergio Reyes Guerra**  
 Email: sergio.reyes@tecsup.edu.pe
