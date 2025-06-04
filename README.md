@@ -1,22 +1,21 @@
-# 🧠 Pokédex - Examen Práctico SPA React 19
+# 🧠 Pokédex - SPA React 19
 
-Aplicación web tipo Pokédex desarrollada como examen práctico. Es una SPA (Single Page Application) creada con **React 19** y **Vite**, que consume datos desde la **PokéAPI** y permite explorar, buscar y guardar Pokémon favoritos.
+Aplicación web muy básica que muestra una Pokédex. Está hecha con React 19 y Vite como parte de un examen práctico.
 
 ---
 
 ## 🚀 Tecnologías utilizadas
 
-- ⚛️ React 19
-- ⚡ Vite
-- 🔄 React Router DOM
-- 🌐 Axios
-- 💾 localStorage
-- 🔔 Toasts personalizados
-- 🎨 CSS personalizado
+- React 19
+- Vite
+- React Router DOM
+- Axios
+- localStorage
+- CSS simple
 
 ---
 
-## 🛠️ Instalación y ejecución local
+## 🛠️ Cómo ejecutar
 
 1. Clona este repositorio:
 
@@ -25,65 +24,43 @@ git clone https://github.com/SergioReyesGuerra/Pokedex.git
 cd Pokedex
 ```
 
-2. Instala las dependencias:
+2. Instala dependencias:
 
 ```bash
 npm install
 ```
 
-3. Ejecuta la aplicación:
+3. Ejecuta la app:
 
 ```bash
 npm run dev
 ```
 
-4. Abre en tu navegador:
-
-```
-http://localhost:5173
-```
+Luego abre tu navegador en `http://localhost:5173`
 
 ---
 
-## 🧭 Navegación
+## 🧭 Rutas de la app
 
-La aplicación cuenta con **3 rutas principales**:
-
-- `/` → Página de inicio con presentación y botones de acceso rápido
-- `/items` → Pokédex con buscador, favoritos, loader y notificaciones
-- `/contact` → Formulario de contacto simulado
+- `/` → Página de inicio
+- `/items` → Lista de Pokémon
+- `/contact` → Formulario de contacto básico
 
 ---
 
-## 🎮 Funcionalidades principales
+## 🎮 Funciones principales
 
-### 📦 Pokédex
-
-- Consulta 50 Pokémon desde la [PokéAPI](https://pokeapi.co)
-- Muestra sprite, nombre y tipo
-- Buscador con **debounce**
-- Marcado de favoritos ❤️ (guardados en `localStorage`)
-- Loader visual mientras carga ⏳
-- Notificaciones tipo toast al marcar/desmarcar favoritos 🔔
-
-### 📄 Home
-
-- Mensaje de bienvenida
-- Imagen destacada
-- Navegación rápida a otras rutas
-
-### 📬 Contacto
-
-- Formulario básico con campos: nombre, correo, mensaje
-- Muestra alerta de éxito simulando envío
+- Carga 10 Pokémon desde PokéAPI
+- Muestra nombre e imagen
+- Puedes marcar favoritos ❤️
+- Guarda favoritos en localStorage
+- Tiene navegación con enlaces
 
 ---
 
-
----
-
-## 👨‍💻 Autor
+## ✍️ Autor
 
 **Sergio Reyes Guerra**  
-Email: sergio.reyes@tecsup.edu.pe  
-Proyecto para evaluación del curso React - TECSUP
+Email: sergio.reyes@tecsup.edu.pe
+
+Proyecto para evaluación básica con React 19 (TECSUP)
